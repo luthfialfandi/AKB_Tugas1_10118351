@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas1_10118351</string>
+    <string name="registrasi">Belum punya akun? <u><b>Registrasi</b></u></string>
+    <string name="login">Sudah punya akun? <u><b>Login</b></u></string>
+    <string name="regis"><i><b>*Fungsi Registrasi belum tersedia.</b></i></string>
+    <string name="log"><i><b>*Username : 123 | Password : 123</b></i></string>
+    <string name="wm">08/04/2021-10118351-Luthfi Alfandi-IF8</string>
+    <string name="deskripsi">Nama saya Luthfi Alfandi. Saya lahir di kota Bandung tanggal
+        28 Desember tahun 1999. Hobi saya adalah bermain piano. Saat ini saya menempuh pendidikan S1
+        di Universitas Komputer Indonesia dengan program studi Teknik Informatika.</string>
+</resources>

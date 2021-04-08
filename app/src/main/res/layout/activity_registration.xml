@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="-35dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Registrasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Silahkan Isi Data Berikut Ini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_form"
+                android:drawableStart="@drawable/ic_contacts_black_24dp"
+                android:id="@+id/nama"
+                android:hint="Nama Lengkap"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_form"
+                android:drawableStart="@drawable/person"
+                android:id="@+id/username"
+                android:hint="Username"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_form"
+                android:drawableStart="@drawable/key"
+                android:id="@+id/password"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regis">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#1597bb"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <Button
+            android:id="@+id/btndaftar"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:background="#3C4A83"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Daftar"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"/>
+        <TextView
+            android:id="@+id/txtlogin"
+            android:paddingTop="15dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#8CFFFFFF"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wm">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
